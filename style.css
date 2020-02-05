@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Corben:400,700|Source+Sans+Pro:400,700&display=swap');
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  line-height: 1em;
+  margin: 0;
+  padding: 0;
+  color: #26547C;
+  background-color: #FFD166;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Corben', cursive;
+  line-height: 1em;
+}
+
+h1 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #26547C;
+  letter-spacing: -0.8px;
+}
+
+h2, h3 {
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0.1px;
+  margin: 40px 0 10px;
+}
+
+.card {
+  width: 600px;
+  margin: 40px auto;
+  padding: 10px 40px 40px;
+  background: #FCFCFC;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-size: 21px;
+  line-height: 30px;
+}
+
+.card.first {
+  padding: 140px 40px 40px;
+}
+
+.card a {
+  color: #FF5964;
+}
+
+.profile-photo {
+  position: relative;
+  margin:  40px auto;
+  margin-bottom: -180px;
+}
+
+.profile-photo img {
+  width: 200px;
+  height: auto;
+  margin:  0;
+  border: 8px solid #FCFCFC;
+  border-radius: 50%;
+}
+
+.button {
+  display: inline-block;
+  color: #FCFCFC;
+  background-color: #FF5964;
+  padding: 16px 30px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  margin: 30px 0 10px;
+  cursor: pointer;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.button:hover {
+  background-color: #e64b56;
+}
+
+a.button {
+  color: #FCFCFC;
+}
+
+.skills {
+  list-style-type: none;
+  margin: 40px 0 18px;
+  padding: 0;
+  font-size: 60px;
+}
+
+.contact {
+  list-style-type: none;
+  margin: 40px 0 18px;
+  padding: 0;
+  font-size: 36px;
+}
+
+.skills li, .contact li {
+  margin: 0 30px;
+  display: inline;
+}
+
+.html {
+  color: #F16529;
+}
+
+.css {
+  color: #2965f1;
+}
+
+.javascript {
+  color: #F0DB4F;
+}
+
+@media (max-width: 720px) {
+  .card {
+    width: 80%;
+    padding: 10px 20px 40px;
+  }
+
+  .card.first {
+    padding: 120px 20px 40px;
+  }
+
+  .profile-photo {
+    margin-bottom: -140px;
+  }
+
+  .profile-photo img {
+    width: 140px;
+    border: 6px solid #FCFCFC;
+  }
+
+  h1 {
+    font-size: 24px;
+    letter-spacing: -0.4px;
+  }
+
+  h2, h3 {
+    font-size: 18px;
+    letter-spacing: 0.4px;
+  }
+
+  .skills {
+    font-size: 48px;
+  }
+
+  .skills li, .contact li {
+    margin: 0 20px;
+  }
+}
